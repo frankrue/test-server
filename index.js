@@ -8,7 +8,7 @@ mongoose.connect('mongodb://localhost/test-blog');
 app.use(bodyParser.json());
 
 var routes = require('./routes');
-routes(app);
+app.use('/posts',routes);
 
 var server = app.listen(3000, function () {
 
