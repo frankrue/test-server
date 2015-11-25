@@ -1,0 +1,16 @@
+{
+  "name": "test-server",
+  "version": "0.0.1",
+  "description": "Just a test server.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Frank Rue <frue@bocodigital.com>",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.14.1",
+    "express": "^4.13.3",
+    "mongoose": "^4.2.7"
+  }
+}
